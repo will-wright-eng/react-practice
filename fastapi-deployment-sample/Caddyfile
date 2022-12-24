@@ -13,4 +13,3 @@ handle {
         try_files {path} {file} /index.html
         file_server
 }
-

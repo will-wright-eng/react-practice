@@ -13,4 +13,3 @@ FROM caddy:alpine
 EXPOSE 80
 EXPOSE 443
 COPY --from=build-step /app/build /usr/share/caddy
-

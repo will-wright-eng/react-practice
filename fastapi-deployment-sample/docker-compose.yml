@@ -9,15 +9,14 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "8080:80"
+    - "8080:80"
     volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - caddy-data:/data
-      - caddy-config:/config
+    - ./Caddyfile:/etc/caddy/Caddyfile
+    - caddy-data:/data
+    - caddy-config:/config
     depends_on:
-      - backend
+    - backend
 
 volumes:
   caddy-data:
   caddy-config:
-

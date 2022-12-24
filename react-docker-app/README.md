@@ -9,7 +9,7 @@ docker ps
 # 9dc33c745965   react-docker-app-my-app   "/docker-entrypoint.…"   43 hours ago   Up 12 seconds   0.0.0.0:3000->80/tcp   react-docker-app-my-app-1
 ```
 
-http://0.0.0.0:3001
+<http://0.0.0.0:3001>
 
 > 500 Internal Server Error
 > nginx/1.18.0
@@ -17,14 +17,15 @@ http://0.0.0.0:3001
 ```bash
 docker-compose down
 ```
+
 ## notes
 
 - based on create-react-app
 - added files for simple config setup
-	- Dockerfile
-	- .dockerignore
-	- nginx.conf
-	- docker-compose.yml
+    - Dockerfile
+    - .dockerignore
+    - nginx.conf
+    - docker-compose.yml
 
 ### kill all containers
 
@@ -43,4 +44,4 @@ history | tail -n 1000 | cut -c 8- | sort | uniq
 
 ## tutorial
 
-https://towardsdev.com/react-app-in-docker-a1128c7147ba
+<https://towardsdev.com/react-app-in-docker-a1128c7147ba>
