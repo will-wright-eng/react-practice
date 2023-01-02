@@ -16,7 +16,7 @@
     - [Develop & Deploy Fastapi + React with Postgres using Docker-Compose - Pete Jadhav](https://petejadhav.github.io/fastapi-react-docker/)
     - do next
         - [Developing a Single Page App with FastAPI and React | TestDriven.io](https://testdriven.io/blog/fastapi-react/)
-    - finish-up
+    - do again & complete docker component
         - [FastAPI, React and Docker · Erraticbits](https://www.erraticbits.ca/post/2021/fastapi/)
 
 - cookiecutter
