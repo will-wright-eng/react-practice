@@ -14,3 +14,5 @@ conda activate test-fastapireact
 
 - [Primer on React Hooks | TestDriven.io](https://testdriven.io/blog/react-hooks-primer/)
 - [Introducing Hooks – React](https://reactjs.org/docs/hooks-intro.html)
+
+- [Modal - Chakra UI](https://chakra-ui.com/docs/components/modal)
